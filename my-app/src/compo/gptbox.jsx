@@ -63,7 +63,7 @@ function Box() {
     setIsLoading(true);
     let response;
     try {
-      response = await fetch("http://localhost:5000/", {
+      response = await fetch("https://codde-karwade-bahi.onrender.com", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ prompt }),
